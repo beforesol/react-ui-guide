@@ -100,7 +100,9 @@
   ```
 
   > nvm 관련 참고 문서
-		> - [nvm 설치](https://gist.github.com/falsy/8aa42ae311a9adb50e2ca7d8702c9af1)
+	> - [nvm](https://github.com/nvm-sh/nvm#about)
+	> - [node.js, nvm, npm이란 무엇인가](https://pongsoyun.tistory.com/115)
+	> - [nvm 설치](https://gist.github.com/falsy/8aa42ae311a9adb50e2ca7d8702c9af1)
 
 ## NPM
 - **npm** 이란?
