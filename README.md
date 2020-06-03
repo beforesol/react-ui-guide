@@ -198,14 +198,6 @@ mkdir react-setting && cd $_
 yarn init -y
 ```
 
-- naver-npm 저장소 설정하기
-  + npm install, update 등에서 naver-npm 저장소를 참조하기 위해선 매번 --registry 옵션을 지정하여야 하지만 아래 설정을 통해 기본값으로 설정 할 수 있습니다.
-  + 프로젝트 디렉토리에 .npmrc 파일을 생성하여 아래 내용을 입력합니다.
-  ```
-  @uit-spritesmith:registry=https://registry.navercorp.com/api/npm/npm-naver
-  ```
-  + 이제 해당 프로젝트 디렉토리에선 npm 명령어를 이용하여 @uit-spritesmith 모듈과 관련된 조작을 할 경우 naver-npm 저장소를 참조합니다.
-
 - 프로덕션 의존성(production dependencies) 설치
   + **프로덕션 의존성**: 배포 단계에서 사용되는 라이브러리
 ```
@@ -702,7 +694,7 @@ touch .babelrc
   > - /etc/hosts: hosts 파일 경로
   + **2. 비밀번호를 작성합니다.**
   + **3. 키보드 i를 누른 후 호스트 파일을 수정합니다.**
-    + 127.0.0.1   local.jr.naver.com 추가
+    + 127.0.0.1   local.naver.com 추가
   ```
   ##
   # Host Database
@@ -711,7 +703,7 @@ touch .babelrc
   # when the system is booting.  Do not change this entry.
   ##
   127.0.0.1   localhost
-  127.0.0.1   local.jr.naver.com
+  127.0.0.1   local.naver.com
 	
   255.255.255.255 broadcasthost
   ::1             localhost
