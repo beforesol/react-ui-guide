@@ -135,21 +135,19 @@
       "engines": {
        "node": ">=10.16.0"
       },
-      "dependencies": {
-        "@uit-spritesmith/webpack": "^0.1.0",
+      "name": "react-setting",
+      "version": "1.0.0",
+      "main": "index.js",
+      "license": "MIT",
+      "devDependencies": {
+       "@uit-spritesmith/webpack": "^0.1.0",
         "autoprefixer": "^9.7.4",
         "clean-webpack-plugin": "^3.0.0",
         "copy-webpack-plugin": "^5.1.1",
         "react": "^16.13.0",
         "react-dom": "^16.13.0",
         "react-prop-types": "^0.4.0",
-        "react-router-dom": "^5.1.2"
-      },
-      "name": "react-setting",
-      "version": "1.0.0",
-      "main": "index.js",
-      "license": "MIT",
-      "devDependencies": {
+        "react-router-dom": "^5.1.2",
         "@babel/core": "^7.8.7",
         "@babel/preset-env": "^7.8.7",
         "@babel/preset-react": "^7.8.3",
